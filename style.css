@@ -14,7 +14,6 @@ body {
     min-height: 100vh;
     flex-direction: column;
     position: relative;
-    /* background: #7d2ae8; */
     max-height: 100vh;
     overflow: auto;
 }
@@ -67,6 +66,7 @@ button {
 
 .yes-btn:hover {
     background: #102913;
+    opacity: 0.9;
 }
 
 button:nth-child(1) {
