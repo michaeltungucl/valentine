@@ -13,6 +13,8 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #7d2ae8;
+    max-height: 100vh;
+    overflow: auto;
 }
 
 .wrapper {
@@ -48,6 +50,15 @@ h2 {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    @media screen and (max-width: 820px) {
+        display: none;
+    }
+}
+
+.no-cheating {
+    @media screen and (min-width: 819px) {
+        display: none;
+    }
 }
 
 button {
@@ -64,7 +75,7 @@ button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.no-btn:hover {
+.yes-btn:hover {
     background: #102913;
 }
 
